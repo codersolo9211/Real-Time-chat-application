@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Poppins;
+}
+
+::-webkit-scrollbar{
+  display: none;
+}
+.friends img{
+  width: 35px;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+}
+.friends{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 13px;
+}
+.friends div{
+  display: flex;
+  flex-direction: column;
+}
+.friends span{
+  color: #9f9f9f;
+  font-size: 11px;
+}
+
+.friends:hover{
+  background-color: #077EFF;
+}
+.friends:hover span{
+  color: white;
+}
+
+img.dot{
+  width: 15px !important;
+}
