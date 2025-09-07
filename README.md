@@ -4,7 +4,7 @@ A simple and modern real-time chat application built using React.js (frontend) a
 This app allows multiple users to chat instantly with live updates powered by Firestore.
  Real-time messaging with Firestore
 
- User authentication (Google/Email sign-in via Firebase Auth) (if you’ve added it)
+ User authentication
 
  Group and one-to-one chat support
 
